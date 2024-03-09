@@ -55,7 +55,7 @@ return [
 	'left_designation' => 'Penunjukan',
 	'left_edit_designation' => 'Edit Penunjukan',
 	'left_designation_name' => 'Nama Penunjukan',
-	'left_designations' => 'Sebutan',
+	'left_designations' => 'Penunjukkan',
 	'left_announcements' => 'Pengumuman',
 	'left_announcement' => 'Pengumuman',
 	'left_announcement_make' => 'Buat Pengumuman',
