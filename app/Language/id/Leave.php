@@ -15,7 +15,7 @@ return [
 	'xin_leave_type_status' => 'Status Jenis Cuti',
 	'xin_leave_details' => 'Detail Cuti',
 	'xin_leave_statistics' => 'Statistik Cuti',
-	'xin_edit_leave' => 'Sunting Cuti',
+	'xin_edit_leave' => 'Edit Cuti',
 	'xin_leave_calendar' => 'Keluar dari Kalender',
 	'xin_edit_leave_type' => 'Edit Jenis Cuti',
 	'left_leave_request' => 'Permintaan Cuti',

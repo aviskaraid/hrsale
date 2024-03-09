@@ -14,7 +14,7 @@ return [
 	'dashboard_total_rest' => 'Istirahat total',
 	'xin_attendance_date' => 'Tanggal Kehadiran',
 	'xin_attendance_month' => 'Bulan Kehadiran',
-	'xin_edit_attendance' => 'Sunting Kehadiran',
+	'xin_edit_attendance' => 'Edit Kehadiran',
 	'xin_add_attendance' => 'Tambahkan Kehadiran',
 	'xin_overtime_thours' => 'Jumlah jam',
 	'xin_add_overtime_request' => 'Tambahkan Permintaan Lembur',

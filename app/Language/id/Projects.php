@@ -59,7 +59,7 @@ return [
 	'xin_add_project' => 'Tambahkan Proyek',
 	'xin_view_project' => 'Lihat Proyek',
 	'xin_add_a_bug' => 'Tambahkan bug',
-	'xin_edit_project' => 'Sunting Proyek',
+	'xin_edit_project' => 'Edit Proyek',
 	'xin_remove_project' => 'Hapus Proyek',
 	'xin_project_details' => 'Detail Proyek',
 	'xin_update_project' => 'Perbarui Proyek',

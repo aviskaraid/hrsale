@@ -1,6 +1,6 @@
 <?php
 
-// override core en language system validation or define your own en language validation message
+// override core en language system validation or define your own en langEdituage validation message
 return [
 	'xin_asset_name' => 'Nama Aset',
 	'xin_company_asset_code' => 'Kode Aset',
@@ -12,18 +12,18 @@ return [
 	'xin_asset_allowed_image_formats' => 'Format yang Diizinkan: jpg, png, jpeg, gif',
 	'xin_asset_note' => 'Catatan Aset',
 	'xin_purchase_date' => 'Tanggal Pembelian',
-	'xin_error_category_field' => 'Bidang kategori wajib diisi.',
-	'xin_error_brand_field' => 'Bidang merek wajib diisi.',
-	'xin_error_asset_name_field' => 'Bidang nama aset wajib diisi.',
-	'xin_error_asset_image_field' => 'Bidang gambar aset wajib diisi.',
+	'xin_error_category_field' => 'Data kategori wajib diisi.',
+	'xin_error_brand_field' => 'Data merek wajib diisi.',
+	'xin_error_asset_name_field' => 'Data nama aset wajib diisi.',
+	'xin_error_asset_image_field' => 'Data gambar aset wajib diisi.',
 	'xin_success_asset_added' => 'Aset ditambahkan.',
 	'xin_success_asset_deleted' => 'Aset dihapus.',
 	'xin_success_asset_updated' => 'Aset diperbarui.',
-	'xin_edit_asset' => 'Sunting Aset',
+	'xin_edit_asset' => 'Edit Aset',
 	'xin_view_asset' => 'Lihat Aset',
 	'xin_edit_assets_category' => 'Edit Kategori Aset',
-	'xin_edit_assets_brand' => 'Sunting Merek Aset',
-	'xin_error_cat_name_field' => 'Bidang kategori wajib diisi.',
+	'xin_edit_assets_brand' => 'Edit Merek Aset',
+	'xin_error_cat_name_field' => 'Data kategori wajib diisi.',
 	'xin_success_assets_category_added' => 'Kategori Aset ditambahkan.',
 	'xin_success_assets_category_deleted' => 'Kategori Aset dihapus.',
 	'xin_success_assets_category_updated' => 'Kategori Aset diperbarui.',

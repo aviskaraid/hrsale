@@ -29,8 +29,8 @@ return [
 	'xin_talent_edit_technical_category' => 'Edit Kategori Teknis',
 	'xin_talent_edit_org_category' => 'Edit Kategori Organisasi',
 	'xin_hr_goal_tracking_types' => 'Jenis Tujuan',
-	'xin_hr_edit_goal_type' => 'Sunting Jenis Sasaran',
+	'xin_hr_edit_goal_type' => 'Edit Jenis Sasaran',
 	'xin_set_up_goals' => 'Siapkan Tujuan',
-	'xin_goals_calendar' => 'Kalender Gol',
+	'xin_goals_calendar' => 'Kalender Tujuan',
 	'xin_competencies' => 'Kompetensi',
 ];

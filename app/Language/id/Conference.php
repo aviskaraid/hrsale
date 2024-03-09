@@ -9,7 +9,7 @@ return [
 	'xin_hr_event_time' => 'Waktu Kegiatan',
 	'xin_event_color' => 'Warna Kegiatan',
 	'xin_hr_event_note' => 'Catatan Kegiatan',
-	'xin_edit_event' => 'Sunting Kegiatan',
+	'xin_edit_event' => 'Edit Kegiatan',
 	'xin_hr_meeting_title' => 'Judul Meeting',
 	'xin_hr_meeting_date' => 'Tanggal Meeting',
 	'xin_hr_meeting_time' => 'Waktu Meeting',
