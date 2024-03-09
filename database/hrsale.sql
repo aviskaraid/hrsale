@@ -2,7 +2,7 @@
 -- Host:                         127.0.0.1
 -- Server version:               8.0.30 - MySQL Community Server - GPL
 -- Server OS:                    Win64
--- HeidiSQL Version:             12.1.0.6537
+-- HeidiSQL Version:             12.6.0.6765
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -704,9 +704,9 @@ CREATE TABLE IF NOT EXISTS `ci_erp_company_settings` (
   PRIMARY KEY (`setting_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb3;
 
--- Dumping data for table hrsale.ci_erp_company_settings: ~0 rows (approximately)
+-- Dumping data for table hrsale.ci_erp_company_settings: ~1 rows (approximately)
 INSERT INTO `ci_erp_company_settings` (`setting_id`, `company_id`, `default_currency`, `default_currency_symbol`, `notification_position`, `notification_close_btn`, `notification_bar`, `date_format_xi`, `default_language`, `system_timezone`, `paypal_email`, `paypal_sandbox`, `paypal_active`, `stripe_secret_key`, `stripe_publishable_key`, `stripe_active`, `invoice_terms_condition`, `setup_modules`, `header_background`, `calendar_locale`, `datepicker_locale`, `login_page`, `login_page_text`, `updated_at`) VALUES
-	(1, 2, 'IDR', 'IDR', 'toast-top-center', '0', 'true', 'd-m-Y', 'id', 'Asia/Jakarta', 'paypal@example.com', 'yes', 'yes', 'stripe_secret_key', 'stripe_publishable_key', 'yes', 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt', 'a:9:{s:11:"recruitment";s:1:"1";s:6:"travel";s:1:"1";s:8:"fmanager";s:1:"1";s:8:"orgchart";s:1:"1";s:6:"events";s:1:"1";s:11:"performance";s:1:"1";s:5:"award";s:1:"1";s:8:"training";s:1:"1";s:9:"inventory";s:1:"1";}', 'bg-dark', 'en', 'en', 2, 'HRSALE provides you with a powerful and cost-effective HR platform to ensure you get the best from your employees and managers. HRSALE is a timely solution to upgrade and modernize your HR team to make it more efficient and consolidate your employee information into one intuitive HR system.', '15-05-2021 08:11:26');
+	(1, 2, 'IDR', 'IDR', 'toast-top-center', '0', 'true', 'd-m-Y', 'id', 'Asia/Jakarta', 'paypal@example.com', 'yes', 'yes', 'stripe_secret_key', 'stripe_publishable_key', 'yes', 'lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt', 'a:9:{s:11:"recruitment";s:1:"1";s:6:"travel";s:1:"1";s:8:"fmanager";s:1:"1";s:8:"orgchart";s:1:"1";s:6:"events";s:1:"1";s:11:"performance";s:1:"1";s:5:"award";s:1:"1";s:8:"training";s:1:"1";s:9:"inventory";s:1:"1";}', 'bg-dark', 'en', 'en', 2, 'HRBoss provides you with a powerful and cost-effective HR platform to ensure you get the best from your employees and managers. HRBoss is a timely solution to upgrade and modernize your HR team to make it more efficient and consolidate your employee information into one intuitive HR system.', '15-05-2021 08:11:26');
 
 -- Dumping structure for table hrsale.ci_erp_constants
 CREATE TABLE IF NOT EXISTS `ci_erp_constants` (
@@ -903,9 +903,9 @@ CREATE TABLE IF NOT EXISTS `ci_erp_users` (
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3;
 
--- Dumping data for table hrsale.ci_erp_users: ~0 rows (approximately)
+-- Dumping data for table hrsale.ci_erp_users: ~1 rows (approximately)
 INSERT INTO `ci_erp_users` (`user_id`, `user_role_id`, `user_type`, `company_id`, `first_name`, `last_name`, `email`, `username`, `password`, `company_name`, `trading_name`, `registration_no`, `government_tax`, `company_type_id`, `profile_photo`, `contact_number`, `gender`, `address_1`, `address_2`, `city`, `state`, `zipcode`, `country`, `last_login_date`, `last_logout_date`, `last_login_ip`, `is_logged_in`, `is_active`, `created_at`) VALUES
-	(2, 0, 'company', 0, 'Super', 'Admin', 'admin@gmail.com', 'admin', '$2y$12$ZFNlDljrVeReGpIJKhnyruY6RSIo.lNDwWkIk0yy2oH4j6cLIeQgi', 'Aviskara', 'TRD-9853142', 'RG-153974520', 'TX-74521583', 6, 'Aviskara_Products_Logo_HRBOSS-crop-removebg-preview.png', '1234567890', '1', 'Jl. Boulevard Barat Kelapa Gading', 'Gedung 001', 'Jakarta Utara', 'DKI Jakarta', '14240', 101, '08-03-2024 20:03:22', '09-03-2024 09:03:44', '::1', 0, 1, '15-05-2021 08:11:26');
+	(2, 0, 'company', 0, 'Super', 'Admin', 'admin@gmail.com', 'admin', '$2y$12$ZFNlDljrVeReGpIJKhnyruY6RSIo.lNDwWkIk0yy2oH4j6cLIeQgi', 'Aviskara', 'TRD-9853142', 'RG-153974520', 'TX-74521583', 6, 'Aviskara_Products_Logo_HRBOSS-crop-removebg-preview.png', '1234567890', '1', 'Jl. Boulevard Barat Kelapa Gading', 'Gedung 001', 'Jakarta Utara', 'DKI Jakarta', '14240', 101, '08-03-2024 20:20:28', '09-03-2024 09:28:59', '::1', 0, 1, '15-05-2021 08:11:26');
 
 -- Dumping structure for table hrsale.ci_erp_users_details
 CREATE TABLE IF NOT EXISTS `ci_erp_users_details` (
@@ -1071,7 +1071,7 @@ CREATE TABLE IF NOT EXISTS `ci_finance_membership_invoices` (
   PRIMARY KEY (`membership_invoice_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb3;
 
--- Dumping data for table hrsale.ci_finance_membership_invoices: ~0 rows (approximately)
+-- Dumping data for table hrsale.ci_finance_membership_invoices: ~1 rows (approximately)
 INSERT INTO `ci_finance_membership_invoices` (`membership_invoice_id`, `invoice_id`, `company_id`, `membership_id`, `subscription_id`, `membership_type`, `subscription`, `invoice_month`, `membership_price`, `payment_method`, `transaction_date`, `description`, `receipt_url`, `source_info`, `created_at`) VALUES
 	(4, 'txn_1IrrDtJck1huBCXGA8vOl02B', 2, 6, '100585963', 'Pro Plan', '2', '2021-05', 59.00, 'Stripe', '2021-05-16 05:10:07', 'Free server unlimited approx 255k+ Premium collection', 'stripe.com', 'visa', '2021-05-16 05:10:07');
 
